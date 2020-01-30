@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<script src="register_request.js"></script>
+		<link rel="stylesheet" href="register.css">
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<h2>Please fill out this form in order to join the event!</h2>
+
+		<div id="form">
+			<form>
+				First name:<br>
+				<input type="text" name="firstname" placeholder="John"><br>
+				Last name:<br>
+				<input type="text" name="lastname" placeholder="Smith"><br>
+				Faculty Number:<br>
+				<input type="text" name="fn"><br>
+				Specialty:<br>
+				<select name = "specialty">
+					<option value="Informatics">Informatics</option>
+					<option value="Computer Science">Computer Science</option>
+					<option value="Software Engineering">Software Engineering</option>
+					<option value="Information Systems">Information Systems</option>
+					<option value="Maths">Maths</option>
+					<option value="Applied Maths">Applied Maths</option>
+					<option value="Mathematics and Informatics">Mathematics and Informatics</option>
+				</select><br/>
+				<input type="button" value="R e g i s t e r" onclick="register()"></input>
+			</form>
+		</div id="form">
+
+		  <div id="errors">
+
+		  </div>
+	</body>
+</html>
